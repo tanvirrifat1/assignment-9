@@ -4,6 +4,7 @@ import Main from './Layouts/Main';
 import Topic from './components/Topic/Topic';
 import Blog from './components/Blog/Blog';
 import Statistics from './components/TopicsDetails/Statistics/Statistics';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -17,9 +18,12 @@ function App() {
           element: <Topic></Topic>
         },
         { path: '/statistics', element: <Statistics></Statistics> },
-        { path: '/blog', element: <Blog></Blog> }
-      ]
+        { path: '/question', element: <Blog></Blog> },
+      ],
 
+    },
+    {
+      path: '*', element: <Error></Error>
     }
   ])
   return (
