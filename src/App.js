@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layouts/Main';
 import Topic from './components/Topic/Topic';
-import Statistics from './components/Topic/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import Statistics from './components/TopicsDetails/Statistics/Statistics';
 
 function App() {
   const router = createBrowserRouter([
