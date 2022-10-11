@@ -28,7 +28,7 @@ function App() {
           element: <SingleTopic></SingleTopic>
         },
         { path: '/statistics', element: <Statistics></Statistics> },
-        { path: '/question', element: <Blog></Blog> },
+        { path: '/blog', element: <Blog></Blog> },
       ],
 
     },

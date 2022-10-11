@@ -13,7 +13,7 @@ const Header = () => {
                     <nav className='flex flex-wrap items-center space-x-4 sm:space-x-8'>
                         <Link to='/topic'>Topics</Link>
                         <Link to='/statistics'>Statistics</Link>
-                        <Link to='/question'>Question</Link>
+                        <Link to='/blog'>Blog</Link>
                     </nav>
                 </div>
             </header>
