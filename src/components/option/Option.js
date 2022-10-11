@@ -1,14 +1,10 @@
 import React from 'react';
+import './Optoin.css'
 
-const Option = ({ tp }) => {
-    const { options } = tp
-    console.log(tp)
-    if (options) {
-
-    }
+const Option = ({ option }) => {
     return (
         <div>
-            <p>{options}</p>
+            <button className='btn mt-5 bg-blue-500'>{option}</button>
         </div>
     );
 };
