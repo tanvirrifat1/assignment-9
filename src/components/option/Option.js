@@ -1,14 +1,13 @@
 import React from 'react';
 import './Optoin.css'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
-const Option = ({ option }) => {
-    const notify = () => toast("Wow so easy!");
+
+const Option = ({ option, handleAns }) => {
+
     return (
         <div>
-            <button onClick={notify} className='btn mt-5 bg-blue-500'>{option}</button>
-            <ToastContainer />
+            <button onClick={() => handleAns(option)} className='btn mt-5 bg-blue-500'>{option}</button>
+
         </div>
     );
 };
