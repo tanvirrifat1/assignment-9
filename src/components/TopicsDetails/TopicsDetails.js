@@ -20,7 +20,7 @@ const TopicsDetails = ({ topic }) => {
                         type='button'
                         className='px-8 block w-full mt-4 py-3 font-semibold rounded-full bg-cyan-200 text-gray-800 hover:bg-cyan-400'
                     >
-                        Add To Cart
+                        Quiz Start
                     </button>
                 </Link>
             </div>

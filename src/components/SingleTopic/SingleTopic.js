@@ -4,7 +4,7 @@ import Details from '../Details/Details';
 
 const SingleTopic = () => {
     const topics = useLoaderData();
-    console.log(topics)
+    // console.log(topics)
     return (
         <div>
             <h1>Topic</h1>
