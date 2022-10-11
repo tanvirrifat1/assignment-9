@@ -11,7 +11,7 @@ const Header = () => {
                     </span>
 
                     <nav className='flex flex-wrap items-center space-x-4 sm:space-x-8'>
-                        <Link to='/'>Topics</Link>
+                        <Link to='/topic'>Topics</Link>
                         <Link to='/statistics'>Statistics</Link>
                         <Link to='/question'>Question</Link>
                     </nav>
