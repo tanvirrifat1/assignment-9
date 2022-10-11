@@ -7,7 +7,7 @@ const Header = () => {
             <header className="p-4">
                 <div className="container flex justify-between h-16 mx-auto">
                     <span className='ml-2 text-3xl font-bold tracking-wide '>
-                        Quiz-Zone
+                        Quiz-competition
                     </span>
 
                     <nav className='flex flex-wrap items-center space-x-4 sm:space-x-8 font-bold'>
