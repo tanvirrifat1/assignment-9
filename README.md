@@ -1,5 +1,3 @@
-bangladesh
-
 
 
 
@@ -73,3 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### 'Some Important Information About My Site'
+
+1-My site design is so beautiful that it attracts visitors easily.
+
+2-I have some cards on the home page of this site, if you click on the card, the quiz comes in another route.
+
+3-After clicking on the start quiz, a router takes you to the router. There are many quizzes in the router, the correct ones are shown as correct and the ones that are incorrect are shown as incorrect.
+Write to Tanvir ahmed Rifat

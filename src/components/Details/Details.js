@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 import Option from '../option/Option';
 import './Details.css'
 import { toast } from 'react-toastify';
-
-
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid';
 
 const Details = ({ topic }) => {
     const [open, setOpen] = useState(true);
     const { question, correctAnswer, options, id } = topic
 
-    const handleAns = (correct) => {
+    const handleAddToCart = (correct) => {
         if (correct === correctAnswer) {
             toast.success('curert', { autoClose: 500 })
         }
@@ -43,7 +41,7 @@ const Details = ({ topic }) => {
                 {
                     options.map(option => <Option
                         option={option}
-                        handleAns={handleAns}
+                        handleAddToCart={handleAddToCart}
                     ></Option>)
                 }
             </div>
